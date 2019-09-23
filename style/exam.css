@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#submit{
+	transition: 0.5s;
+}
+#submit:hover{
+	box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+.examcontent_p1{
+	width: 20%;
+	height: 40em;
+	background: white;
+	float: right;
+	top: 0;
+	right: 0;
+	position: fixed;
+	padding-right: 0.5em;
+	overflow: auto;
+	border: 1px solid rgba(204, 204, 204, 0.5);
+}
+.examcontent_p2{
+	width: 78.3%;
+	margin-left: 0.4em;
+	float: left;
+	background: white;
+	overflow: auto;
+	padding-bottom: 1em;
+	border: 1px solid rgba(204, 204, 204, 0.5);
+	margin-top: 0.7em;
+}
+.areaexam{
+	padding-bottom: 0.2em;
+	line-height: 1.8em;
+}
+.examcontent_p2_1{
+	background: url(../image/bg-title.png);
+	background-repeat: repeat-x;
+	background-size: contain;
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding-top: 0.3em;
+}
+.examcontent_p2_2{
+	width: 100%;
+	border-bottom: 1px dashed rgba(204,204,204,0.4);
+}
+.examcontent_p2_2 .p1{
+	text-align: center;
+}
+.examcontent_p2_2 p{
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+}
+.examcontent_p2_1 p{
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0;
+}
+.cauhoi{
+	padding: 0.4em;
+	font-family: Helvetica,sans-serif;
+	font-size: 15px;
+	margin-top: 1em;
+	margin-bottom: 0.2em;
+}
+.tencauhoi{
+	margin-top: 0.5em;
+	padding: 0.1em;
+	border-bottom: 1px dashed rgba(170,170,170,0.3);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: justify;
+}
+.dapan{
+	padding-top: 0.5em;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+label{
+	cursor: pointer;
+}
+.dscauhoi{
+	width: 97.5%;
+	height: auto;
+	background: white;
+	display: block;
+	margin: auto;
+	margin-left: 0.25em;
+	margin-top: 0.3em;
+	border-bottom: 2px solid rgba(204,204,204,0.5);
+	padding-bottom: 0.2em;
+}
+#timer{
+	width: 97.5%;
+	height: auto;
+	background: rgba(170,170,170,0);
+	margin-left: 0.25em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	padding: 0.6em 0em;
+}
+.socau{
+	background: dimgrey;
+	margin: 3px;
+	margin-left: 10px;
+	float: left;
+	width: 2.5em;
+	height: 1.5em;
+	font-size: 11px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+}
+.socau:hover{
+	text-decoration: underline;
+	background: red;
+}
+@media all and (max-width: 1000px){
+	#clock{
+		font-size: 18px !important;
+	}
+	img{
+		height: 20px;
+		width: 20px;
+	}
+	.examcontent_p1, .examcontent_p2{
+		margin: 0;
+	}
+	.sobd, .hoten{
+		font-size: 11px !important;
+	}
+}
+@media all and (min-width:319px) and (max-width:767px){
+	#clock{
+		font-size: 15px !important;
+		margin-left: 0.2px !important;
+	}
+	img{
+		height: 20px;
+		width: 20px;
+	}
+	.examcontent_p1, .examcontent_p2{
+		margin: 0;
+	}
+	.dscauhoi{
+		font-size: 10px !important;
+	}
+	.hellomem{
+		display: none;
+	}
+	.socau{
+		width: 2em;
+		height: 2em;
+		font-size: 10px;
+		margin-left: 2px;
+	}
+	#submit{
+		width: 90%;
+		height: 4em;
+		font-size: 8px;
+		padding:0 !important;
+	}
+	.maincauhoi{
+		height: 15em !important;
+	}
+	.examcontent_p2{
+		background: rgba(255,255,204,0.8);
+	}
+	.sobd, .hoten{
+		font-size: 11px !important;
+	}
+}

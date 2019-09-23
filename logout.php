@@ -1,0 +1,10 @@
+<?php
+	session_start();
+	unset($_SESSION['sbd']);
+	unset($_SESSION['hoten']);
+	unset($_SESSION['ngaysinh']);
+	unset($_SESSION['noisinh']);
+	unset($_SESSION['donvi']);
+	unset($_SESSION['kt']);
+	unset($_SESSION['tkt']);
+?>
